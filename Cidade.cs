@@ -17,6 +17,13 @@ class Cidade
     this.estado = estado;
   }
 
+  public Cidade() {
+    this.nome = "";
+    this.populacao = 0;
+    this.area = 0;
+    this.estado = "";
+  }
+
   private string buscarDados()
   {
     string mensagem;
