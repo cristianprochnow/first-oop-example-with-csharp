@@ -1,7 +1,18 @@
 ﻿Cidade cidade = new Cidade("Joinville", 347000, 1131.32, "SC");
-Cidade cidadeBlank = new Cidade();
 
 Console.Clear();
-cidade.mostrarDados();
-cidadeBlank.mostrarDados();
-Console.ReadKey();
+
+Console.WriteLine();
+Console.WriteLine( cidade.buscarDados() );
+
+Console.WriteLine();
+Console.WriteLine( cidade.buscarDados("T") );
+
+Console.WriteLine();
+Console.WriteLine( cidade.buscarDados("D") );
+
+Console.WriteLine();
+Console.WriteLine( cidade.buscarDados("A") );
+
+Console.WriteLine();
+Console.WriteLine( cidade.buscarDados("H") );
